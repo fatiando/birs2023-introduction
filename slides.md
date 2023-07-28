@@ -12,13 +12,10 @@ The reveal.js configuration can be found in index.html
 </div>
 
 <h1 id="talk-title">
-  A long talk title that may <br>be kind of boring and <br>more than one line long
+  The Fatiando a Terra project
 </h1>
 <p id="talk-authors">
-  <a href="https://www.leouieda.com" id="talk-speaker">Leonardo Uieda</a>,
-  Author Two,
-  and
-  Author Three
+  <a href="https://www.leouieda.com" id="talk-speaker">Leonardo Uieda</a>
 </p>
 
 <!-- Place location and date side-by-side with affiliation logos -->
@@ -26,9 +23,9 @@ The reveal.js configuration can be found in index.html
 <div class="col-large">
 
 <i class="fa fa-calendar-alt" style="margin: 0 10px 0 0"></i>
-XX Month 202X
-<span style="margin: 0 20px"></span>
-Event/host of the talk
+28 July 2023
+
+BIRS Workshop:  Open-Source Tools to Enable Geophysical Data Processing and Inversion
 
 <!-- Permission to reuse and CC-BY license logo -->
 <i class="fa fa-camera" style="margin: 0 10px 0 0"></i>
@@ -43,83 +40,10 @@ Feel free to screenshot/share/reuse this presentation
 <div class="talk-logos-container">
 <div class="talk-logos">
   <a href="https://www.compgeolab.org"><img src="assets/compgeolab-banner-light.svg" alt="Computer-Oriented Geoscience Lab"></a>
-  <a href="https://www.liverpool.ac.uk/"><img src="assets/university-of-liverpool-white.png" alt="University of Liverpool"></a>
 </div>
 </div>
 
 </div>
-</div>
-
-===============================================================================
-
-# Heading 1
-
-This is a slide with some content.
-
-## Heading 2
-
-* Bla bla
-* Bla bla
-
-### Heading 3
-
-Meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh meh
-meh meh.
-
-===============================================================================
-
-<div class="r-stretch">
-
-# Some facts
-
-About a certain topic.
-
-</div>
-<div class="footnote">
-
-This is a little footnote.
-Use it to add notes, citations, [links](https://www.leouieda.com/), etc.
-<br>
-Notice how the `div` above uses `r-stretch` to push this note to the bottom.
-
-</div>
-
-===============================================================================
-
-<div class="r-stretch centered">
-<div>
-
-# Even more facts!
-
-About many different things.
-
-</div>
-</div>
-<div class="footnote-left">
-
-Left aligned footnote.
-Use `centered` on the `div` above to vertically center content.
-<br>
-Need to put another `div` inside of it as well.
-
-</div>
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-color="#000000" -->
-
-<div class="r-stretch">
-</div>
-<div class="footnote-center dark">
-
-Centered footnote with a dark background on a slide with a background.
-<br>
-Set the size to `contain` to make sure aspect ratios are preserved and the
-background isn't cropped.
-<br>
-It's a good idea to add alt-text to this footnote if the background is
-important.
-
 </div>
 
 ===============================================================================
@@ -128,10 +52,156 @@ important.
 
 <div class="r-stretch">
 </div>
+<div class="footnote-left dark">
+
+Our journey starts in Brazil at the University of São Paulo and the National
+Observatory in Rio de Janeiro
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/fatiando-as-a-gravmag-gui.svg" data-background-size="contain" data-background-color="#ffffff" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote dark">
+
+Initial idea developed around 2008 by **undergrads** at USP as a GUI for **2D
+forward modelling**
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/fatiando-first-commit.svg" data-background-size="contain" data-background-repeat="no-repeat" -->
+
+<div class="r-stretch">
+</div>
 <div class="footnote">
 
-This is how you use a video background.
-The video auto starts when flipping to this slide.
+Became a **Python library** in 2010 when I started my MSc in Rio working on 3D
+gravity gradient inversion
+(commit: [928515b](https://github.com/fatiando/fatiando/commit/928515b0fcfdccecbc4f661ed2469390ef43ec1d))
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-image="assets/fatiando-first-commit-vcs.svg" data-background-size="contain" data-background-repeat="no-repeat" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+Went through 3 version control systems.
+Learned a lot about software engineering
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-video="assets/planting-inversion.mp4" data-background-size="contain" data-background-color="#ffffff" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+Used it for my MSc thesis and included a lot of potential-field processing and
+inversion functions
+<br>
+Animation from [Uieda & Barbosa (2012)](https://doi.org/10.6084/m9.figshare.91469.v1)
+
+</div>
+
+===============================================================================
+
+<!-- .slide: data-background-video="assets/seismic-waves-demo.mp4" data-background-size="contain" data-background-color="#ffffff" -->
+
+<div class="r-stretch">
+</div>
+<div class="footnote-left">
+
+Included a bunch of other things as well that were useful in teaching
+(notebook from <i class="fab fa-github"></i>
+[leouieda/geofisica2](https://github.com/leouieda/geofisica2))
+
+</div>
+
+===============================================================================
+
+<div class="row">
+<div class="col">
+<h1 style="color: #0000dd;">
+<i class="far fa-thumbs-up" style="margin-right: 20px;"></i>
+The good parts
+</h1>
+<ul class="fa-ul">
+<li>
+<span class="fa-li"> <i class="fa fa-lightbulb fa-fw"></i> </span>
+State-of-the-art algorithms
+</li>
+<li>
+<span class="fa-li"> <i class="fa fa-file-alt fa-fw"></i> </span>
+Used in several thesis & papers (>70 citations)
+</li>
+<li>
+<span class="fa-li"> <i class="fa fa-users fa-fw"></i> </span>
+2-3 active contributors
+</li>
+<li>
+<span class="fa-li"> <i class="fa fa-chalkboard-teacher fa-fw"></i> </span>
+Enabled teaching through simulation
+</li>
+</ul>
+</div>
+<div class="col fragment">
+<h1 style="color: #dd0000;">
+<i class="far fa-thumbs-down" style="margin-right: 20px;"></i>
+The bad parts
+</h1>
+<ul class="fa-ul">
+<li>
+<span class="fa-li"> <i class="fa fa-gamepad fa-fw"></i> </span>
+Too many toy problems and experimental/untested code
+</li>
+<li>
+<span class="fa-li"> <i class="fas fa-vial fa-fw"></i> </span>
+Not designed for testability
+</li>
+<li>
+<span class="fa-li"> <i class="fa fa-tools fa-fw"></i> </span>
+Difficult to maintain
+</li>
+<li>
+<span class="fa-li"> <i class="fa fa-landmark fa-fw"></i> </span>
+Unstable foundations for growth
+</li>
+</ul>
+</div>
+</div>
+
+===============================================================================
+
+<!-- .slide: class="slide-transition" -->
+
+<div class="r-stretch centered">
+<div>
+Enter
+
+# The Geophysics Python Stack
+
+<img style="width: 15%" src="assets/simpeg-logo.png">
+<img style="width: 15%" src="assets/pygimli-logo.svg">
+<img style="width: 15%" src="assets/gempy-logo.png">
+<img style="width: 15%" src="assets/pyvista-logo.png">
+<img style="width: 15%" src="assets/emsig-logo.svg">
+</div>
+</div>
+<div class="footnote-left">
+
+All of these tools were taking off around 2017-2018 so we had to do some
+soul-searching to see where Fatiando fit in
 
 </div>
 
@@ -139,85 +209,137 @@ The video auto starts when flipping to this slide.
 
 <!-- .slide: class="slide-transition" -->
 
-# A transition slide <br> with a large title
+<div class="r-stretch centered">
+<div>
 
-...and some text.
+# Fatiando is dead.<br> <span class="fragment">Long live Fatiando!</span>
 
-===============================================================================
+</div>
+</div>
+<div class="footnote-left fragment">
 
-# Maths
-
-This is an inline $\int_a^b x^2 dx$ and $\delta g = g - \gamma$:
-
-`\[ \int_a^b x^2 dx \]`
-
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#000000" -->
-
-<div class="quote">
-
-Big quote message with a faded background image.
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla.
+Read more about it in
+[this blog post from 2018](https://www.leouieda.com/blog/future-of-fatiando.html)
 
 </div>
 
-===============================================================================
-
-<!-- .slide: data-background-image="assets/agu2019.svg" data-background-size="contain" data-background-opacity="0.3" data-background-color="#ffffff" -->
-
-<div class="quote dark">
-
-Light fade of the background with a dark quote.
-
-</div>
 
 ===============================================================================
 
-# Two column layout
+<div class="row small">
+<div class="col fragment">
 
-<div class="row">
-<div class="col">
+## Pooch
 
-## Theory
-
-Explain something here.
-This is how you make a FontAwesome list:
+Data <b>download & caching</b>
+<br>
+(used by a lot of the Scipy stack)
 
 <ul class="fa-ul">
-
-<li>
-<span class="fa-li"> <i class="fa fa-lightbulb fa-fw"></i> </span>
-Make a list with
+<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+   <a href="https://github.com/fatiando/pooch">fatiando/pooch</a>
 </li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-file-alt fa-fw"></i> </span>
-some awesome icons
+<li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
+   Stable and ready for use
 </li>
-
-<li>
-<span class="fa-li"> <i class="fa fa-users fa-fw"></i> </span>
-instead of bullet points
-</li>
-
 </ul>
 
 </div>
-<div class="col tiny">
+<div class="col fragment">
 
-<img src="assets/halfspace-temperature.png">
+## Verde
 
-Some text explaining the figure.
-Maybe even a bit of maths like $\gamma$.
+Spatial/point data processing and <b>interpolation</b> with a pinch of ML
+
+<ul class="fa-ul project-icons">
+<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+   <a href="https://github.com/fatiando/verde">fatiando/verde</a>
+</li>
+<li><i class="fa-li fa fa-check fa-fw" style="color: green" title="Project status"></i>
+   Stable and ready for use
+</li>
+</ul>
+
+</div>
+<div class="col fragment">
+
+## Harmonica
+
+Processing, modeling, and inversion of <b>gravity & magnetic</b> data
+
+<ul class="fa-ul project-icons">
+<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+   <a href="https://github.com/fatiando/harmonica">fatiando/harmonica</a>
+</li>
+<li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+   Ready for use but still changing
+</li>
+</ul>
+
+</div>
+</div>
+<hr style="margin: 1em 0">
+<div class="row small">
+<div class="col fragment">
+
+## Boule
+
+Defines reference <b>ellipsoids</b> and calculates <b>normal gravity</b>
+
+<ul class="fa-ul project-icons">
+<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+   <a href="https://github.com/fatiando/boule">fatiando/boule</a>
+</li>
+<li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+   Ready for use but still changing
+</li>
+</ul>
+
+</div>
+<div class="col fragment">
+
+## Ensaio
+
+Collection for curated open-access **sample geophysics datasets**
+
+<ul class="fa-ul project-icons">
+<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+   <a href="https://github.com/fatiando/ensaio">fatiando/ensaio</a>
+</li>
+<li><i class="fa-li fa fa-sync-alt fa-fw" style="color: green" title="Project status"></i>
+   Ready for use but still changing
+</li>
+</ul>
+
+</div>
+<div class="col fragment">
+
+## Choclo
+
+Highly optimized <b>forward modeling kernel</b> functions
+
+<ul class="fa-ul project-icons">
+<li><i class="fa-li fab fa-github fa-fw" title="Github repository"></i>
+   <a href="https://github.com/fatiando/choclo">fatiando/choclo</a>
+</li>
+<li><i class="fa-li fa fa-flask fa-fw" style="color: orange" title="Project status"></i>
+    Early stages of design
+</li>
+</ul>
 
 </div>
 </div>
 
-<div class="footnote">
 
-Good place for a citation or image credit.
-This one is by Leonardo Uieda (CC-BY).
+===============================================================================
+
+<!-- .slide: data-background-image="assets/fatiando-community-call.jpg" data-background-size="contain" -->
+
+<div class="quote dark">
+
+Come for the <strong>code</strong> <i class="fas fa-code"></i>
+<br>
+Stay for the <strong>community</strong> <i class="fas fa-users"></i>
 
 </div>
 
@@ -226,31 +348,37 @@ This one is by Leonardo Uieda (CC-BY).
 <div class="r-stretch centered">
 <div>
 
-# Multiple columns
-
-Place as many `col`s as you want. They will have the same size.
+# Steering Council
 
 <div class="row">
 <div class="col">
+<img src="https://github.com/aguspesce.png">
 
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
-
-</div>
-<div class="col tiny">
-
-<img src="assets/nbr_thomas_fire.jpg">
-
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
+Agustina Pesce
 
 </div>
-<div class="col tiny">
+<div class="col">
+<img src="https://github.com/MGomezN.png">
 
-<img src="assets/halfspace-temperature.png">
+Mariana Gomez
 
-Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-bla bla.
+</div>
+<div class="col">
+<img src="https://github.com/leouieda.png">
+
+Leonardo Uieda
+
+</div>
+<div class="col">
+<img src="https://github.com/santisoler.png">
+
+Santiago Soler
+
+</div>
+<div class="col">
+<img src="https://github.com/LL-Geo.png">
+
+Lu Li
 
 </div>
 </div>
@@ -259,115 +387,51 @@ bla bla.
 </div>
 <div class="footnote">
 
-Images by Leonardo Uieda (CC-BY).
+Read more about our
+[project governance](https://github.com/fatiando/community/blob/main/GOVERNANCE.md)
+(inspired by the SimPEG structure 😊)
 
 </div>
 
 ===============================================================================
 
-# This one has columns of different size
+<!-- .slide: class="slide-transition" -->
 
-<div class="row">
-<div class="col-large tiny">
-
-<img style="width: 95%;" src="assets/nbr_thomas_fire.jpg">
-
-This way the image is larger on the screen. Use it for maps or main figures.
-
-</div>
-<div class="col small">
-
-Explain what is shown on the image.
-Use the `small` class to adjust font size.
-
-Maybe include some maths:
-
-$ D\dfrac{\partial^4 w}{\partial x^4} = q - g (\rho_m - \rho_w) w $
-
-</div>
-</div>
+# 1.<br> Full transparency<br> is the default
 
 ===============================================================================
 
-<div class="row">
-<div class="col tiny">
+<!-- .slide: class="slide-transition" -->
 
-<img src="assets/japan-trench-globalcmt.png">
-
-This way the image is narrow so it should be in a smaller column.
-
-</div>
-<div class="col-medium">
-
-# Column sizes
-
-Columns come in 3 sizes:
-
-1. `col`
-1. `col-medium`
-1. `col-large`
-
-These are more proportions than fixed sizes.
-
-</div>
-</div>
+# 2.<br> Generously give <br> permission, responsibility, knowledge
 
 ===============================================================================
 
-# Code
+# Roadmap
 
-Example of using PyGMT to make a map:
-
-<div class="row">
-<div class="col-large fragment small">
-
-This code:
-
-```python
-import pygmt
-
-# Load built-in topography data
-grid = pygmt.datasets.load_earth_relief()
-
-fig = pygmt.Figure()
-# Pseudo-color map of topography
-fig.basemap(
-    region=[-150, -30, -60, 60],
-    projection="I-90/6i",
-    frame=True,
-)
-fig.grdimage(grid=grid, cmap="viridis")
-# Mask continents in dark grey
-fig.coast(land="#333333")
-# Display in Jupyter or pop-up window
-fig.show()
-```
-</div>
-<div class="col-medium fragment small">
-
-Makes this map 👇
-
-<img style="width: 90%" src="assets/pygmt-example.png">
-
-</div>
+1. <!-- .element: class="fragment" --> Full gravity processing in Harmonica
+1. <!-- .element: class="fragment" --> Non-linear layer inversion in Harmonica
+1. <!-- .element: class="fragment" --> 3D planting inversion in Harmonica
+1. <!-- .element: class="fragment" --> Use Choclo in Harmonica and SimPEG
+1. <!-- .element: class="fragment" --> What would a general-purpose inversion framework look like?
+1. <!-- .element: class="fragment" --> Expand kernels in Choclo (polygonal prisms, polyhedra)
+1. <!-- .element: class="fragment" --> Verde 2.0.0: New interpolators, better defaults
+1. <!-- .element: class="fragment" --> Funding for workshops/events at conferences
 
 ===============================================================================
 
 <!-- .slide: class="slide-contact" data-background-image="assets/contact-slide.svg" data-background-size="contain" data-background-color="#000000" -->
 
-<div class="r-stretch centered">
-<div>
-
-<i class="fas fa-comments"></i>
+<i class="fas fa-info-circle"></i>
 <br>
-Contact:
-<a href="https://www.leouieda.com">www.leouieda.com</a>
+Find out more:
+<a href="https://www.fatiando.org">www.fatiando.org</a>
 
 <i class="fab fa-github"></i>
 <br>
 Source code for this presentation:
 <br>
-[github.com/leouieda/talk-template](https://github.com/leouieda/talk-template)
+[github.com/fatiando/birs2023-introduction](https://github.com/fatiando/birs2023-introduction)
 
 <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i>
 <br>
@@ -376,14 +440,5 @@ the contents of this presentation are
 licensed under the
 <br>
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-</div>
-</div>
-<div class="footnote-left dark">
-
-The background image is a Landsat 8 scene (panchromatic band) of the Mersey
-river delta.
 <br>
-White dots are on the right are offshore wind turbines.
-
-</div>
+These license terms do not apply to project logos and profile photos.
