@@ -34,16 +34,6 @@ Feel free to screenshot/share/reuse this presentation
 <a href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by" style="margin: 0 10px 0 2px"></i>CC-BY 4.0 License</a>
 
 </div>
-<div class="col-medium">
-
-<!-- Add logos here. Need these wrappers to align them to the bottom right -->
-<div class="talk-logos-container">
-<div class="talk-logos">
-  <a href="https://www.compgeolab.org"><img src="assets/compgeolab-banner-light.svg" alt="Computer-Oriented Geoscience Lab"></a>
-</div>
-</div>
-
-</div>
 </div>
 
 ===============================================================================
