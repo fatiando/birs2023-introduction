@@ -1,30 +1,13 @@
-# Template for my reveal.js based slides
+# The Fatiando a Terra project | BIRS 2023
 
-This is a template I use to make [reveal.js](https://revealjs.com/) slides
-for talks and lectures.
-It adds some custom styling and CSS classes for making columns, footnotes,
-and more.
+This is a short presentation about the history of the Fatiando project
+for our [BIRS 2023 workshop](https://birs-2023.softwareunderground.org/)
+with the [SimPEG](https://simpeg.xyz/) community.
 
-**Preview:** https://www.leouieda.com/talk-template
+YouTube recording of the talk: https://www.youtube.com/watch?v=hC2Ukdceyck
 
-> The original inspiration is this template by Matthew Turk:
-> https://github.com/matthewturk/mjt-talk-template
-
-## Using
-
-1. Click on the "Use this template" button or go to
-   https://github.com/leouieda/talk-template/generate to create a
-   new repository for your slides.
-1. Change the HTML title (the one that appears on the browser tab)
-   in `index.html`.
-1. Remove the Plausible Analytics script from the `<head>` in `index.html`.
-1. Preview the presentation by
-   [serving the slides locally](#serving-the-slides-locally).
-1. Add your content to `slides.md` and images to `assets`
-   (remove the images you don't want to use).
-1. Commit and push your changes.
-1. Make your presentation public by
-   [enabling GitHub Pages](#serving-on-github-pages).
+> Created from the reveal.js talk template:
+> https://github.com/leouieda/talk-template
 
 ## What's included
 
@@ -101,9 +84,6 @@ as well.
 Your slides should now be served at https://USERNAME.github.io/REPOSITORY
 or equivalent if you're using a custom domain.
 It may take a little while for this to happen.
-
-For example, this template is served at
-https://www.leouieda.com/talk-template.
 
 ## Exporting to PDF
 
